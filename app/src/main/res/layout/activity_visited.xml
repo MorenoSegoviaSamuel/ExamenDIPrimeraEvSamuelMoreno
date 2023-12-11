@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Visited">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" >
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_launcher_foreground" />
+
+                <RatingBar
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/ratingBar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" >
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_launcher_foreground" />
+
+                <RatingBar
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/ratingBar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" >
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_launcher_foreground" />
+
+                <RatingBar
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/ratingBar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" >
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_launcher_foreground" />
+
+                <RatingBar
+                    android:layout_marginTop="60dp"
+                    android:id="@+id/ratingBar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
